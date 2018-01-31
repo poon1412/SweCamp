@@ -110,3 +110,12 @@ $di->setShared('session', function () {
 
     return $session;
 });
+
+$di->set(
+	'url', 
+	function() {
+	    $url = new UrlResolver();
+	    $url->setBaseUri('/SweCamp/');
+	    return $url;
+	}
+);
