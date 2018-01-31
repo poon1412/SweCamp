@@ -25,7 +25,7 @@ class InsertNewsController extends Controller
         
     }
 
-    public function fahAction()
+    public function indexAction()
     {
 
     }
